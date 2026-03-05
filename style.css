@@ -1,0 +1,49 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f6f8;
+margin: 0;
+text-align: center;
+}
+
+header {
+background-color: #1f2933;
+color: white;
+padding: 40px;
+}
+
+h1 {
+font-size: 48px;
+margin-bottom: 10px;
+}
+
+.tagline {
+font-size: 18px;
+color: #d1d5db;
+}
+
+.intro {
+padding: 60px 20px;
+max-width: 700px;
+margin: auto;
+}
+
+.intro h2 {
+color: #2c3e50;
+}
+
+.intro p {
+font-size: 18px;
+line-height: 1.6;
+}
+
+.coming {
+margin-top: 20px;
+font-style: italic;
+color: #555;
+}
+
+footer {
+margin-top: 60px;
+padding: 20px;
+background-color: #e5e7eb;
+}
