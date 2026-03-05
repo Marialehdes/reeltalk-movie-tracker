@@ -24,5 +24,6 @@ ReelTalk is a web application that helps users track movies they want to watch o
 - localStorage for saving user data
 - GitHub Pages for deployment
 
-## Author
-Maria Hernandez
+## AI Assistance
+This project was planned and developed with guidance from various AI tools, including Claude, GitHub Copilot, and ChatGPT.  
+The AI transcript from this planning process is included in the 'transcripts' folder.
