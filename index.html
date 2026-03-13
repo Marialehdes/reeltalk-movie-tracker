@@ -2,15 +2,22 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ReelTalk Movie Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-<h1>ReelTalk</h1>
-<p class="tagline">Where Movies Start Conversations</p>
+  <div class="header-inner">
+    <div class="header-badge">🎬</div>
+    <h1 class="header-title"><span class="title-reel">Reel</span><span class="title-talk">Talk</span></h1>
+    <p class="tagline">Track &bull; Rate &bull; Review Movies</p>
+  </div>
 </header>
 
 <section class="intro">
@@ -26,7 +33,37 @@ and share your opinions through ratings and reviews.
 Coming Soon: Browse movies, rate them, write reviews, and filter by genre.
 </p>
 
+<section id="stats">
+  <h2 class="stats-heading">Your Stats</h2>
+  <div class="stats-grid">
+    <div class="stat-card">
+      <span class="stat-icon">🎬</span>
+      <span class="stat-value" id="watched-count">0</span>
+      <span class="stat-label">Watched</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-icon">❤️</span>
+      <span class="stat-value" id="favorites-count">0</span>
+      <span class="stat-label">Favorites</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-icon">⭐</span>
+      <span class="stat-value" id="average-rating">—</span>
+      <span class="stat-label">Avg Rating</span>
+    </div>
+  </div>
+</section>
+
 <h2>Movie Collection</h2>
+
+<div id="filter-bar">
+  <button class="filter-btn active" data-filter="all">All</button>
+  <button class="filter-btn" data-filter="watched">Watched</button>
+  <button class="filter-btn" data-filter="favorites">Favorites</button>
+  <button id="btn-reset-filters" class="btn-reset" aria-label="Reset all filters">✕ Reset</button>
+</div>
+
+<div id="genre-bar"></div>
 
 <div id="movie-list"></div>
 
