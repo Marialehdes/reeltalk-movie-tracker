@@ -47,3 +47,27 @@ margin-top: 60px;
 padding: 20px;
 background-color: #e5e7eb;
 }
+
+#movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.movie-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 12px;
+  background: #fafafa;
+}
+
+.movie-title {
+  margin: 0;
+  font-size: 18px;
+}
+
+.movie-genre {
+  font-size: 14px;
+  color: #666;
+}
