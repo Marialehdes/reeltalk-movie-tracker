@@ -50,12 +50,3 @@ function setRating(id, rating) {
   }
   updateMovie(id, { rating });
 }
-
-export {
-  getUserMovies,
-  getMovieState,
-  updateMovie,
-  toggleFavorite,
-  toggleWatched,
-  setRating,
-};
