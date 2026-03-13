@@ -50,3 +50,7 @@ function setRating(id, rating) {
   }
   updateMovie(id, { rating });
 }
+
+function setReview(id, review) {
+  updateMovie(id, { review: review.trim() || null });
+}
