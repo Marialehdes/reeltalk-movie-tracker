@@ -17,6 +17,7 @@ ReelTalk is a web application that helps users track movies they want to watch o
 6. Filter movies by genre (Action, Drama, Comedy, etc.)
 7. Filter movies by watch status (Watched, Not Watched, Favorites)
 8. Stats dashboard
+9. Reset filter
 
 ## Tech Stack
 - HTML
